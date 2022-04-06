@@ -1,0 +1,103 @@
+body{
+	background-color:#000000;
+	
+}
+.header{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.text{
+	font-family: 'Courier New', Courier, monospace;
+	color: white;
+	font-size: larger;
+	text-align: center;
+}
+.title{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 18px;
+}
+.description{
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 18px;
+}
+.main-img{
+	display: flex;
+	justify-content: center;
+	width: 280px;
+	height: 280px;
+	background: url(./assets/yoMero.png); 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-radius: 50%;
+}
+.main-img:hover{
+		background-image: url(./assets/otroYojpg.png);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		border-radius: 50%;
+		transition-duration: 1s;
+}
+.resultStyled{
+	background-color: rgb(25, 19, 63);
+
+	height: 100px;
+	width: 100px;
+}
+.profile-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.algorithmSection{
+	background-color: rgba(22, 32, 43, 0.795);
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	margin-top: 30px;
+	border-radius: 35px;
+	
+}
+input{
+	border-radius: 8px;
+	border: none;
+	margin: 6px;
+	border:none;
+}
+
+
+.button{
+	border-radius: 8px;
+	background-color: rgb(26, 219, 78);
+	color: rgb(0, 0, 0);
+	border: none;
+}
+.button:hover{
+	color: black;
+	background-color: rgb(105, 231, 141);
+}
+.footer{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.footer-text{
+	color: white
+}
+.footer-text:hover{
+	font-size: 25px;
+	transition-duration: 1s;
+}
